@@ -22,7 +22,7 @@
     </TypeIdentifier>
   </Class>
   <Class Name="ProgProvDel1.Program">
-    <Position X="7.75" Y="1.5" Width="1.5" />
+    <Position X="5.25" Y="1.5" Width="1.5" />
     <NestedTypes>
       <Delegate Name="ProgProvDel1.Program.SetSkillLevel" Collapsed="true">
         <TypeIdentifier>
