@@ -12,17 +12,19 @@ namespace ProgProvDel1
 
         static void Strength()
         {
-            // bonus till strength
+            // ska ge bonus till strength
+            Novice newStudent = new Novice();
         }
 
         static void Speed()
         {
-            // bonus till speed osv
+            // ska bonus till speed osv
+            Novice newStudent = new Novice();
         }
 
         static void Intelligence()
         {
-
+            Novice newStudent = new Novice();
         }
 
         static void Main(string[] args)
@@ -48,7 +50,9 @@ namespace ProgProvDel1
                     if (option > 0 && option < 4) // siffran är giltig
                     {
                         options[option.ToString()](); // tar input som index
+                        break;
                     }
+
                     // siffran är inte giltig och while loopen körs igen
                 }
                 else 
@@ -58,6 +62,9 @@ namespace ProgProvDel1
                 }
                 
             }
+
+            Console.WriteLine("THE END");
+            Console.ReadLine();
         }
     }
 }
